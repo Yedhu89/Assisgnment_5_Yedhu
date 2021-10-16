@@ -36,18 +36,28 @@ No treatments effects on biomass in the Wildtype, again indicating a genotype-sp
 
 ## Conclusion:
 
-The finals results concluded that under both the greenhouse and field growth conditions, suggest that in some cases A. brasilense N8 and P. bilaii can enhance growth and/or nutrient accumulation of hybrid poplar clone ‘Okanese’ and clone ‘Walker’ and switchgrass cv. ‘Cave-In-Rock’. Although less conclusive, there is also some evidence of positive effects of the A. nodosum extract on the growth and nutrient content in poplar. The results from the both the greenhouse and field shows A. brasilense N8 and P. bilaii can increase growth and nutrient accumulation for poplar clones ‘Okanese’ and ‘Walker’ and for switchgrass ‘Cave-In-Rock’. This approach may enable a more sustainable production of the biomass feedstock crops on marginal soils where no nutrient supply and periodic drought are present. This also helps to reduce the cost for Biofuel production. 
+The finals results concluded that under both the greenhouse and field growth conditions, suggest that in some cases A. brasilense N8 and P. bilaii can enhance growth and/or nutrient accumulation of hybrid poplar clone ‘Okanese’ and clone ‘Walker’ and switchgrass cv. ‘Cave-In-Rock’. Although less conclusive, there is also some evidence of positive effects of the A. nodosum extract on the growth and nutrient content in poplar. The results from the both the greenhouse and field shows A. brasilense N8 and P. bilaii can increase growth and nutrient accumulation for poplar clones ‘Okanese’ and ‘Walker’ and for switchgrass ‘Cave-In-Rock’. This approach may enable a more sustainable production of the biomass feedstock crops on marginal soils where no nutrient supply and periodic drought are present. This also helps to reduce the cost for Biofuel production.
 
-```{r cars}
-summary(cars)
-```
+## Graphs
 
-## Including Plots
-
-You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+poplar_dry_weight <- data.frame(Formulation =c("CT", "AB", "PB", "SE", "VP"), Dry_weight = c(19, 21, 22, 27, 20))
+
+full_name <- data.frame(abb = c("CT", "AB", "PB", "SE", "VP"), fname = c("Control", "Azospirillum brasilense", "Penicillium bilaii", "Seaweed","Variovorax paradoxus" ))
+
+
+ggplot(poplar_dry_weight, aes(x= Formulation, y= Dry_weight))+
+  geom_bar(stat = "identity")+
+  labs(title = "Effects of soil microbes and seaweed on poplar", caption = "CT-Control, AB-Azospirillum brasilense, PB-Penicillium bilaii, SE-Seaweed, VP-Variovorax paradoxus", x= "Treatment formulation", y= "Biomass dry weight") +
+    theme(axis.text = element_text(size = 10),plot.title = element_text(size = 18, face = "bold"), 
+          axis.title=element_text(size = 16),legend.title = element_text(size = 10, face = "bold"), 
+          legend.text = element_text(size = 10),
+          legend.background = element_rect(fill = "snow3"), 
+          panel.background = element_rect(fill = "snow1",color="#91a3b2"),
+          panel.grid.major = element_line(size = 0.5, linetype = "dotted", colour = "#5886a5"),
+          panel.grid.minor = element_line(size = 0.5, linetype = "dotted", colour = "#5886a5"),
+          plot.background = element_rect(fill = "snow2"))
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
