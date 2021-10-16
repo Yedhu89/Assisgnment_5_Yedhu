@@ -58,6 +58,21 @@ ggplot(poplar_dry_weight, aes(x= Formulation, y= Dry_weight))+
           panel.grid.major = element_line(size = 0.5, linetype = "dotted", colour = "#5886a5"),
           panel.grid.minor = element_line(size = 0.5, linetype = "dotted", colour = "#5886a5"),
           plot.background = element_rect(fill = "snow2"))
+
+## Switchgrass
+switchgrass_dry_weight <- data.frame(Formulation =c("CT", "AB", "PB", "SE", "VP"), Dry_weight = c(15, 19, 19, 16, 17))
+
+ggplot(switchgrass_dry_weight, aes(x= Formulation, y= Dry_weight))+
+  geom_bar(stat = "identity")+
+  labs(title = "Effects of soil microbes and seaweed on switchgrass", caption = "CT-Control,   AB-Azospirillum brasilense, PB-Penicillium bilaii, SE-Seaweed, VP-Variovorax paradoxus", x= "Treatment formulation", y= "Biomass dry weight") +
+    theme(axis.text = element_text(size = 10),plot.title = element_text(size = 18, face = "bold"), 
+          axis.title=element_text(size = 16),legend.title = element_text(size = 10, face = "bold"), 
+          legend.text = element_text(size = 10),
+          legend.background = element_rect(fill = "snow3"), 
+          panel.background = element_rect(fill = "snow1",color="#91a3b2"),
+          panel.grid.major = element_line(size = 0.5, linetype = "dotted", colour = "#5886a5"),
+          panel.grid.minor = element_line(size = 0.5, linetype = "dotted", colour = "#5886a5"),
+          plot.background = element_rect(fill = "snow2"))
 ```
 
 
