@@ -7,13 +7,15 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
 ```
 
-## R Markdown
+## Enhancing the productivity of hybrid Poplar (Populus× hybrid) and Switchgrass (Panicum virgatum L.) by the application of beneficial soil microbes and a seaweed extract.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Fei, H., Crouse, M., Papadopoulos, Y., & Vessey, J. K. (2017). Enhancing the productivity of hybrid Poplar (Populus× hybrid) and Switchgrass (Panicum virgatum L.) by the application of beneficial soil microbes and a seaweed extract. Biomass and bioenergy, 107, 122-134.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+https://github.com/Yedhu89/Assisgnment_5_Yedhu.git
+
 
 ```{r cars}
 summary(cars)
