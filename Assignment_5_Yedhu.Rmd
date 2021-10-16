@@ -20,6 +20,13 @@ https://github.com/Yedhu89/Assisgnment_5_Yedhu.git
 
 The study by Fei et al.,(2017) carries out an investigation on the effects of three beneficial soil microbes Azospirillum brasilense, Pencillium bilaii, Variovorax paradoxus, and Ascophyllum nodosum (Seaweed) tested on the growth of three clones of hybrid poplars and two cultivars of Switchgrass grown under greenhouse conditions and on marginal land. 
 Good quality and high yielding feedstocks on marginal lands with low inputs could help lower costs.Beneficial soil microbes have many advantages to plants like enhanced growth, at low costs (Vessey, J. K. 2003). Inoculating biofuel feedstock crop species with such microbes can increase the productivity and lower the costs of biofuel feedstocks.This experiment was done to enhance to yield and productivity of the biomass crops by the application of beneficial soil microbes and a seaweed. The application of beneficial soil microbes and plant supplements enhances productivity of biomass feedstocks and help lower cost of biofuel.
+
+## Methods:
+Three poplar clones and two cultivars of switchgrass were selcted for the experiment. The hybrid poplar clones were Hill, Okanese and Walker from the Agriculture and Agri-Food Canada (AAFC) Saskatchewan.The switchgrass cultivars were a wild type and the cultivar ‘Cave-In-Rock’. The plants were grown in both greenhouse and field to evaluate the treatment effects and were treated with soil microbes and seaweed extract (A.nodosum). After 1 month of growth, each plant was inoculated with 2 ml of bacterial broth (108 cfu ml−1), and 1 ml of ANE by soil drenching. 
+After 3 months of growth, poplar stems, leaves and roots, and switchgrass shoots and roots were harvested separately, and each plant sample was ground into a fine powder for nutrient analyses. 
+Concentrations of Nitrogen (N), Phosphorus (P) and Potassium (K) in the tissues were determined by Laboratory Service, Department of Agriculture, Nova Scotia.
+
+
 ```{r cars}
 summary(cars)
 ```
