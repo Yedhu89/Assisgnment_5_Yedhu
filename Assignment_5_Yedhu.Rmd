@@ -2,7 +2,9 @@
 title: "Assignment 5"
 author: "Yedhu Sanil Kumar"
 date: "10/16/2021"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 fontsize: 12pt
 ---
 
@@ -39,7 +41,7 @@ No treatments effects on biomass in the Wildtype, again indicating a genotype-sp
 
 The finals results concluded that under both the greenhouse and field growth conditions, suggest that in some cases A. brasilense N8 and P. bilaii can enhance growth and/or nutrient accumulation of hybrid poplar clone ‘Okanese’ and clone ‘Walker’ and switchgrass cv. ‘Cave-In-Rock’. Although less conclusive, there is also some evidence of positive effects of the A. nodosum extract on the growth and nutrient content in poplar. The results from the both the greenhouse and field shows A. brasilense N8 and P. bilaii can increase growth and nutrient accumulation for poplar clones ‘Okanese’ and ‘Walker’ and for switchgrass ‘Cave-In-Rock’. This approach may enable a more sustainable production of the biomass feedstock crops on marginal soils where no nutrient supply and periodic drought are present. This also helps to reduce the cost for Biofuel production.
 
-#### Graphs
+#### Graphs:
 
 
 ```{r pressure, echo=FALSE}
