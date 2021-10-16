@@ -16,7 +16,10 @@ Fei, H., Crouse, M., Papadopoulos, Y., & Vessey, J. K. (2017). Enhancing the pro
 
 https://github.com/Yedhu89/Assisgnment_5_Yedhu.git
 
+## Introduction:
 
+The study by Fei et al.,(2017) carries out an investigation on the effects of three beneficial soil microbes Azospirillum brasilense, Pencillium bilaii, Variovorax paradoxus, and Ascophyllum nodosum (Seaweed) tested on the growth of three clones of hybrid poplars and two cultivars of Switchgrass grown under greenhouse conditions and on marginal land. 
+Good quality and high yielding feedstocks on marginal lands with low inputs could help lower costs.Beneficial soil microbes have many advantages to plants like enhanced growth, at low costs (Vessey, J. K. 2003). Inoculating biofuel feedstock crop species with such microbes can increase the productivity and lower the costs of biofuel feedstocks.This experiment was done to enhance to yield and productivity of the biomass crops by the application of beneficial soil microbes and a seaweed. The application of beneficial soil microbes and plant supplements enhances productivity of biomass feedstocks and help lower cost of biofuel.
 ```{r cars}
 summary(cars)
 ```
