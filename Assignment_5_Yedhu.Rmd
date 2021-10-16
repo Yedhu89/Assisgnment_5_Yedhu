@@ -26,6 +26,17 @@ Three poplar clones and two cultivars of switchgrass were selcted for the experi
 After 3 months of growth, poplar stems, leaves and roots, and switchgrass shoots and roots were harvested separately, and each plant sample was ground into a fine powder for nutrient analyses. 
 Concentrations of Nitrogen (N), Phosphorus (P) and Potassium (K) in the tissues were determined by Laboratory Service, Department of Agriculture, Nova Scotia.
 
+## Results:
+
+The plants were harvested after 3 months of growth from both setting. The results show that Biomass in poplar cultivars like Okanese and Walker under both conditions was high in treatments with A.brasilense and P. bilaii by 23% and 26%.
+There were no treatment effects in clone ‘Hill', thereby indicating a genotype-specific effect.
+For switchgrass, Biomass in ‘Cave-In-Rock’ under greenhouse inoculated with A. brasilense or P. bilaii was higher by 18% compared to other treatments, but there were no significant increases in the field trials.
+No treatments effects on biomass in the Wildtype, again indicating a genotype-specific effect.
+
+
+## Conclusion:
+
+The finals results concluded that under both the greenhouse and field growth conditions, suggest that in some cases A. brasilense N8 and P. bilaii can enhance growth and/or nutrient accumulation of hybrid poplar clone ‘Okanese’ and clone ‘Walker’ and switchgrass cv. ‘Cave-In-Rock’. Although less conclusive, there is also some evidence of positive effects of the A. nodosum extract on the growth and nutrient content in poplar. The results from the both the greenhouse and field shows A. brasilense N8 and P. bilaii can increase growth and nutrient accumulation for poplar clones ‘Okanese’ and ‘Walker’ and for switchgrass ‘Cave-In-Rock’. This approach may enable a more sustainable production of the biomass feedstock crops on marginal soils where no nutrient supply and periodic drought are present. This also helps to reduce the cost for Biofuel production. 
 
 ```{r cars}
 summary(cars)
