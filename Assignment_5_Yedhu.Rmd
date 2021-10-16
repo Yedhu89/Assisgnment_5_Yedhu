@@ -3,6 +3,7 @@ title: "Assignment 5"
 author: "Yedhu Sanil Kumar"
 date: "10/16/2021"
 output: html_document
+fontsize: 12pt
 ---
 
 ```{r setup, include=FALSE}
@@ -75,4 +76,12 @@ ggplot(switchgrass_dry_weight, aes(x= Formulation, y= Dry_weight))+
           plot.background = element_rect(fill = "snow2"))
 ```
 
+
+## References:
+Vessey, J. K. (2003). Plant growth promoting rhizobacteria as biofertilizers. Plant and soil, 255(2), 571-586.
+
+Fei, H., Crouse, M., Papadopoulos, Y., & Vessey, J. K. (2017). Enhancing the productivity of hybrid poplar
+(Populus× hybrid) and switchgrass (Panicum virgatum L.) by the application of beneficial soil microbes and a seaweed extract. Biomass and bioenergy, 107, 122-134.
+
+Hoagland, D. R., & Arnon, D. I. (1950). The water-culture method for growing plants without soil. Circular. California agricultural experiment station, 347(2nd edit).
 
